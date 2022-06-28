@@ -1,0 +1,34 @@
+#raiz del proyecto
+ErrorDocument 500 /contents/error/500.php
+ErrorDocument 404 /contents/error/404.php
+ErrorDocument 403 /contents/error/403.php
+
+Options All -Indexes
+IndexIgnore *.jpg *.jpeg *.png *.mp4 *.sql *.json *.mwb *.wsdl *.pdf *.html .ht*
+
+#permite php y html invisible, URL amigable
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+RewriteRule ^([^\.]+)$ $1.html [NC,L]
+
+#bloqueo de archivos
+<Files .htaccess>
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files Controlador.php>
+    Order allow,deny
+    Deny from all
+</Files>
+
+<Files pagina.php>
+    Order allow,deny
+    Deny from all
+</Files>
+
+<FilesMatch "\.(htaccess|htpasswd|ini|phps|log|bak|txt|json)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>

@@ -1,0 +1,51 @@
+{
+    "Trofeos":{
+        "img": "../img/trofeos/Trofeos diseños exclusivos.png",
+        "link": "trofeos.php",
+        "descripcion": "descript",
+        "nombre-del-producto": {
+            "color": "tamaño"
+        }
+    },
+    "Medallas":{
+        "img": "../img/medallas/1.jpg",
+        "link": "medallas.php",
+        "descripcion": "descript",
+        "nombre-del-producto": {
+            "color": "tamaño"
+        }
+    },
+    "Souvenires":{
+        "img": "../img/souvenires/portalapices antioqueño 1 instagram.jpg",
+        "link": "souvenires.php",
+        "descripcion": "descript",
+        "nombre-del-producto": {
+            "color": "tamaño"
+        }
+    },
+    "Dhalia":{
+        "img": "../img/souvenires/portalapices antioqueño 1 instagram.jpg",
+        "link": "dhalia.php",
+        "descripcion": "descript",
+        "nombre-del-producto": {
+            "color": "tamaño"
+        }
+    },
+    "Hogar":{
+        "img": "../img/souvenires/portalapices antioqueño 1 instagram.jpg",
+        "link": "hogar.php",
+        "descripcion": "descript",
+        "nombre-del-producto": {
+            "color": "tamaño"
+        }
+    },
+    "Personalizado":{
+        "img": "../img/souvenires/portalapices antioqueño 1 instagram.jpg",
+        "link": "personalizado.php",
+        "descripcion": "descript",
+        "nombre-del-producto": {
+            "color": "tamaño"
+        }
+    }
+
+}
